@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rima Chérik | Marketing Digital & Communication</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  </head>
+  <body>
+    <!-- Header avec bouton de langue -->
+    <header>
+      <div class="banniere">
+        <img
+          src="images/1723196891557.jfif"
+          width="100% "
+          height="150"
+          alt=""
+        />
+      </div>
+      <div class="container">
+        <div class="logo">Rima Chérik</div>
+        <nav>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="lang-toggle" class="lang-btn">EN</button>
+      </div>
+    </header>
+
+    <!-- Section Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1
+            data-fr="Expertise en Marketing Digital"
+            data-en="Digital Marketing Expertise"
+          >
+            Expertise en Marketing Digital
+          </h1>
+          <p
+            data-fr="Je vous aide à booster votre visibilité en ligne avec des stratégies sur-mesure."
+            data-en="I help you boost your online visibility with tailored strategies."
+          >
+            Je vous aide à booster votre visibilité en ligne avec des stratégies
+            sur-mesure.
+          </p>
+          <a
+            href="#contact"
+            class="btn"
+            data-fr="Contactez-moi"
+            data-en="Contact Me"
+            >Contactez-moi</a
+          >
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/Ao2Tc_Kr_400x400.jpg"
+            alt="Rima Chérik, Experte en Marketing Digital"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 data-fr="Mes Services" data-en="My Services">Mes Services</h2>
+        <div class="tabs">
+          <button
+            class="tab-btn active"
+            data-tab="seo"
+            data-fr="SEO"
+            data-en="SEO"
+          >
+            SEO
+          </button>
+          <button class="tab-btn" data-tab="sea" data-fr="SEA" data-en="SEA">
+            SEA
+          </button>
+          <button
+            class="tab-btn"
+            data-tab="branding"
+            data-fr="Personal Branding"
+            data-en="Personal Branding"
+          >
+            Personal Branding
+          </button>
+          <button
+            class="tab-btn"
+            data-tab="social"
+            data-fr="Réseaux Sociaux"
+            data-en="Social Media"
+          >
+            Réseaux Sociaux
+          </button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" data-tab="seo">
+            <h3 data-fr="Optimisation SEO" data-en="SEO Optimization">
+              Optimisation SEO
+            </h3>
+            <p
+              data-fr="Améliorez votre classement sur Google avec une stratégie de mots-clés et un contenu optimisé."
+              data-en="Improve your Google ranking with a keyword strategy and optimized content."
+            >
+              Améliorez votre classement sur Google avec une stratégie de
+              mots-clés et un contenu optimisé.
+            </p>
+            <img src="images/cc345671-4d60-4394-8250-e16a4ff807bf.png" alt="Stratégie SEO en action" />
+          </div>
+          <!-- Autres onglets (à compléter) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-image">
+          <img
+            src="images/5cb88614-4450-4b8f-9e45-d407dd640aa8.jpg"
+            alt="Rima Chérik"
+          />
+        </div>
+        <div class="about-content">
+          <h2 data-fr="À Propos de Moi" data-en="About Me">À Propos de Moi</h2>
+          <p
+            data-fr="Je suis Rima Chérik, chargée de marketing digital et communication basée à Paris. Passionnée par la création de stratégies innovantes, je vous accompagne pour développer votre présence en ligne et renforcer votre image de marque."
+            data-en="I am Rima Chérik, a digital marketing and communication specialist based in Paris. Passionate about creating innovative strategies, I support you in developing your online presence and strengthening your brand image."
+          >
+            <strong>Je suis Rima Chérik:<br><br> </strong>  🔹Marketing Digital 🔹Transformation Digitale <br>🔹IA Générative 🔹SEO 
+            🔹SEA 🔹 E-Business 🔹 Communication 🔹 Création de contenus
+          </p>
+          <a
+  href="images/Expérience  et cv Rima (1).pdf"   
+  class="btn"
+  data-fr="Télécharger mon CV"
+  data-en="Download my CV"
+  download
+>
+  Télécharger mon CV
+</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 data-fr="Contactez-moi" data-en="Contact Me">Contactez-moi</h2>
+        <form>
+          <input type="text" placeholder="Nom" data-fr="Nom" data-en="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea
+            placeholder="Votre message"
+            data-fr="Votre message"
+            data-en="Your message"
+          ></textarea>
+          <button type="submit" class="btn" data-fr="Envoyer" data-en="Send">
+            Envoyer
+          </button>
+        </form>
+        <div class="contact-info">
+          <p>
+            <strong data-fr="Email" data-en="Email">Email</strong>:
+            rimacherik@gmail.com
+          </p>
+          <p>
+            <strong data-fr="Adresse" data-en="Address">Adresse</strong>:📍 Rue de
+            Bekalem, Paris
+          </p>
+          <div class="social-links">
+           <a href="https://facebook.com/rimacherik" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://linkedin.com/in/rima-cherik" target="_blank"
+              >LinkedIn</a
+            >
+            <!-- <p>
+              <strong data-fr="Téléphone" data-en="Phone">Téléphone</strong>:
+              <a href="tel:+33XXXXXXXX">+33 X XX XX XX XX</a>
+            </p> -->
+            <p></p><strong data-fr="Téléphone" data-en="Phone">📞Téléphone</strong>: <a href="tel:+33612345678">+33 6 12 34 56 78</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Rima Chérik. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
